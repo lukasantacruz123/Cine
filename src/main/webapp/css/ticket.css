@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+ body {
+            font-family: Arial, sans-serif;
+            background: #121212;
+            color: #e0e0e0;
+            padding: 20px;
+        }
+
+        .ticket {
+            max-width: 600px;
+            margin: auto;
+            background: #1f1f1f;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #ffdd57;
+        }
+
+        .info {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .info p {
+            margin: 8px 0;
+            color: #d0d0d0;
+        }
+
+        .butacas {
+            margin-top: 15px;
+        }
+
+        .butacas h3 {
+            color: #ffdd57;
+        }
+
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        ul li {
+            background-color: #2a2a2a;
+            padding: 8px;
+            margin: 4px 0;
+            border-radius: 6px;
+        }
+
+        .volver {
+            display: inline-block;
+            margin-top: 25px;
+            background: #ff3b30;
+            color: #fff;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .volver:hover {
+            background: #ff5c50;
+        }
